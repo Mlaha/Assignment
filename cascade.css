@@ -1,13 +1,15 @@
-body{
-    background-image:url("green.jpg");
-}
+body {
+        background-color: rgb(52, 152, 219);
+    }
 p{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-.header{
-    width: 100vw;
+.page1{
+    width: 100%;
     height: 100vh;
-    background:
+    background-image: url(green.jpg);
+    background-repeat:no-repeat;
+    
 }
 ul, li{
     align-items: center;
@@ -18,9 +20,7 @@ ul, li{
     list-style: none;
     padding: 5px;
     margin: 0 auto;
-    max-width: 960px;
-    box-shadow: 0 3px 8px rgba(0,0,0,.2);
-    position:fixed;
+    position:sticky;
 
 }
 .cards{
@@ -34,4 +34,7 @@ ul, li{
 }
 flex1{
     width:50%;
+}
+.container{
+    font-family: 'Times New Roman', Times, serif;
 }
