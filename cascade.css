@@ -1,0 +1,37 @@
+body{
+    background-image:url("green.jpg");
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    background:
+}
+ul, li{
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 5px;
+    margin: 0 auto;
+    max-width: 960px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.2);
+    position:fixed;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 5px;
+    max-width: 960px;
+    min-height: 300px;
+    border: solid black 1px;
+}
+flex1{
+    width:50%;
+}
